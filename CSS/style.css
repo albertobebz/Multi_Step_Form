@@ -23,6 +23,7 @@ body {
   width: 400px;
   margin: 50px auto;
   text-align: center;
+  position: relative;
 }
 
 #msform fieldset{
@@ -33,6 +34,9 @@ body {
   padding: 20px 30px;
   width: 80%;
   margin: 0 10%;
+
+  /* stacking fieldset above each other */
+  position: absolute;
 }
 
 /* hide all except first fieldset */
@@ -49,6 +53,7 @@ body {
   width: 100%;
   font-family: montserrat;
   color: #2C3E50;
+  font-size: 13px;
 }
 
 /* style for the buttons */
@@ -62,6 +67,10 @@ body {
   cursor: crosshair;
   padding: 10px 5px;
   margin: 10px 5px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
 }
 
 /*** headings ***/
