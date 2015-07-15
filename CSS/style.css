@@ -17,3 +17,20 @@ html {
 body {
   font-family: montserrat, arial, verdana;
 }
+
+/* form style */
+#msform {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+#msform fieldset{
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0,0,0,0.4);
+  padding: 20px 30px;
+  width: 80%;
+  margin: 0 10%; 
+}
