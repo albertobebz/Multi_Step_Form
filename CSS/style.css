@@ -40,6 +40,16 @@ body {
   display: none;
 }
 
+/* style for the inputs and textarea */
+#msform input, #msform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: montserrat;
+  color: #2C3E50;
+}
 
 /*** headings ***/
 .fs-title {
