@@ -35,6 +35,12 @@ body {
   margin: 0 10%;
 }
 
+/* hide all except first fieldset */
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+
 /*** headings ***/
 .fs-title {
   font-size: 15px;
@@ -90,8 +96,21 @@ body {
   position: absolute;
   left: -50%;
   top: 9px;
+  z-index: -1;
 }
 
+/* this rule delete the extra line in front of the first li */
+#progressbar li:first-child:after {
+  /*the connector is not needed before the first step*/
+  content: none;
+}
+
+/* marking active/completed steps yellow */
+/* the number of the step and the connector before it = yellow */
+#progressbar li.active:before, #progressbar li.active:after {
+  background: yellow;
+  color: black;
+}
 
 
 
