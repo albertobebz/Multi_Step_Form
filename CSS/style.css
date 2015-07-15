@@ -7,3 +7,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  height: 100%;
+  background: linear-gradient(135deg, #f85032 0%,#f16f5c 50%,#f6290c 51%,#f02f17 71%,#e73827 100%);
+  background-repeat: repeat-y; 
+}
+
+body {
+  font-family: montserrat, arial, verdana;
+}
